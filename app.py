@@ -3,7 +3,7 @@
 
 from flask import Flask, jsonify
 
-from flask_cors import CORS
+# from flask_cors import CORS
 
 # import os
 # import cv2
@@ -22,7 +22,7 @@ from flask_cors import CORS
 #     os.makedirs(UPLOAD_FOLDER)
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 # app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # def save_class_names(class_names):
