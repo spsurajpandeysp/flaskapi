@@ -111,8 +111,10 @@ def get_data():
 
 
 @app.route('/', methods=['GET'])
-def get_data():
+def set_data():
     return jsonify({'Name': 'SurajPandey'})
 
 
 
+# if __name__ == '__main__':
+#     app.run(debug=True)
