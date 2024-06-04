@@ -1,13 +1,13 @@
 {
     "version":2,
     "builds":[
-        {"src":"./run.py","use":"@vercel/python","config":{"runtime":"python3.11"}}
+        {"src":"./index.py","use":"@vercel/python","config":{"runtime":"python3.11"}}
   
     
     ],
     "routes":[
-        {"src":"/findfood","dest":"run.py"},
-        {"src":"/(.*)","dest":"run.py"}
+        {"src":"/findfood","dest":"/"},
+        {"src":"/","dest":"/"}
         
     ]
 }
