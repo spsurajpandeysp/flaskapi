@@ -1,8 +1,5 @@
 {
     "version":2,
-    "scripts": {
-        "postinstall": "apt-get update && apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6"
-      },
     "builds":[
         {"src":"./run.py","use":"@vercel/python","config":{"runtime":"python3.11"}}
   
