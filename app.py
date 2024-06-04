@@ -3,16 +3,16 @@
 
 from flask import Flask, jsonify
 
-# from flask_cors import CORS
+from flask_cors import CORS
 
-# import os
-# import cv2
-# import torch
-# import torchvision.transforms as transforms
-# from torchvision.models import resnet50, ResNet50_Weights
-# from PIL import Image
-# import matplotlib
-# import matplotlib.pyplot as plt
+import os
+import cv2
+import torch
+import torchvision.transforms as transforms
+from torchvision.models import resnet50, ResNet50_Weights
+from PIL import Image
+import matplotlib
+import matplotlib.pyplot as plt
 
 # Set Matplotlib to use the 'Agg' backend
 # matplotlib.use('Agg')
